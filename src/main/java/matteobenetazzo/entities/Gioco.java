@@ -35,6 +35,10 @@ public abstract class Gioco {
     }
 
     // GETTER: metodo per leggere i valori
+    public int getIdGioco() {
+        return idGioco;
+    }
+
     public String getTitolo() {
         return titolo;
     }
@@ -45,10 +49,6 @@ public abstract class Gioco {
             throw new IllegalArgumentException("Titolo non valido: cambia titolo");
         }
         this.titolo = titolo;
-    }
-
-    public int getIdGioco() {
-        return idGioco;
     }
 
     public int getAnnoPubblicazione() {
