@@ -28,7 +28,7 @@ package matteobenetazzo;
     - Genere
     - Piattaforma
 
-    5) CLASSE Collezione:
+    5) CLASSE CollezioneGiochi:
     - aggiungi gioco (non è possibile inserire elemento con stesso ID)
     - cerca per ID
     - cerca per prezzo massimo
